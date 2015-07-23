@@ -4,13 +4,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7a92ab0c-921c-465a-9403-7a79c7429120</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>numbers.py</StartupFile>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>Numbers.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>numbers</Name>
+    <Name>Numbers</Name>
     <RootNamespace>numbers</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -25,7 +26,7 @@
     <Compile Include="inputNumber.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="numbers.py" />
+    <Compile Include="Numbers.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
