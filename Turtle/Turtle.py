@@ -50,9 +50,11 @@ for steps in range(sides):
 
 #tell which values to use in the loop
 
-for clr in ['red', 'blue', 'yellow', 'brown', 'grey'] : 
+"""for clr in ['red', 'blue', 'yellow', 'brown', 'grey'] : 
     turtle.color(clr)
     turtle.forward(100)
-    turtle.right(90)
+    turtle.right(90)"""
+
+
 
 
